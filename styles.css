@@ -1,0 +1,49 @@
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+main {
+  display: grid;
+  grid-template: 1fr 1fr 1fr;
+  
+}
+
+main div:nth-of-type(1) {
+  grid-column: 1 / span 2;
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
+}
+
+#hassle {
+  color: hsl(71, 73%, 54%);
+}
+
+#access {
+  color: hsl(218, 22%, 67%);
+}
+
+ul {
+  list-style: none;
+}
+
+#monthly {
+  background-color: hsl(179, 62%, 43%);
+  color: hsl(204, 43%, 93%);
+}
+
+#monthly button {
+  background-color: hsl(71, 73%, 54%);
+  color: hsl(204, 43%, 93%);
+}
+
+#reasons {
+  background-color: hsl(179, 59%, 48%);  
+  color: hsl(204, 43%, 93%);
+}
+}
+@media (min-width: 375px) {
+}
