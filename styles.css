@@ -2,12 +2,17 @@ body {
   font-family: "Karla", sans-serif;
   font-size: 16px;
   text-align: center;
+  background-color: rgb(218, 214, 214);
 }
 
 main {
   display: grid;
   grid-template: 1fr 1fr 1fr;
-  
+  border-radius: 8px;
+  width: 70%;
+  background-color: #fff;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 main div:nth-of-type(1) {
@@ -26,24 +31,45 @@ h1 {
   color: hsl(218, 22%, 67%);
 }
 
-ul {
-  list-style: none;
-}
-
 #monthly {
   background-color: hsl(179, 62%, 43%);
   color: hsl(204, 43%, 93%);
 }
 
+#price {
+  font-size: 26px;
+}
+
 #monthly button {
+  font-size: 18px;
+  font-weight: bold;
   background-color: hsl(71, 73%, 54%);
   color: hsl(204, 43%, 93%);
+  width: 78%;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 12px;
 }
 
 #reasons {
-  background-color: hsl(179, 59%, 48%);  
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  place-items: grid;
+  background-color: hsl(179, 59%, 48%);
   color: hsl(204, 43%, 93%);
+  padding-bottom: 20px;
 }
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
+
 @media (min-width: 375px) {
 }
